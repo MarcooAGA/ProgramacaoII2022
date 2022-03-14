@@ -1,0 +1,11 @@
+class Estudante(object):
+    def __init__(self, nome):
+        self.nome = nome
+    def set_email(self, email):
+        self.email = email
+    def set_telefone(self, telefone):
+        self.telefone = telefone
+
+marco = Estudante('Marco')
+marco.set_email('marco14.ifc@gmail.com')
+marco.set_telefone('47*********')
